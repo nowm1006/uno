@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.shop
+{color: rgb(198, 29, 29);
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.shop img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.local{background-color:red;
+    text-align: center;
+    color: navy;
+}
+.office
+{font-size: large;
+background-image: url();
+background-size: cover;
+text-align: center;
+}
+
+.kousiki{
+    font-size: 50px; 
+    color: blueviolet;
+}
+.n{
+    color: black;
+}
+.photo {background-image :url(lmg/images.jpeg);
+    padding: 30px;
+    overflow: hidden;
+  }
+  
+  /* h2見出し */
+  .photo h2 {
+    color: #ffffff;
+    border-color: #ffcc11;
+  }
+  
+  /* h3見出し */
+  .photo h3 {
+    color: #ffffff;
+
+  }
+  
+  /* 段落 */
+  .photo p {
+    color: #ffffff;
+    clear: left;/* 画像や箱の回り込みをやめる */
+  }
+  
+  .card {
+    border-radius: 20px;
+    width: 350px;/* 横幅を指定する */
+    padding: 9px;
+    float: left;
+    margin: 7px;
+    box-shadow: 10px 10px 20px #000000;/* 影を指定する */
+    background-color: #000000;
+   height: 450px;
+   border: solid 10px #ffffff;
+  }
+  
